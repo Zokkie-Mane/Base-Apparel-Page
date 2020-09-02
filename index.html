@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./index.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap'); 
+    </style>
+
+<script src="./index.js"></script>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+
+  <body>
+            <!--Desktop Version-->
+<div class="row desktop shadow-lg p-3 mb-5 bg-white rounded" id="grad1">
+          <div class="letters col-7">
+
+            <div >
+              <img class="logo" src="./images/logo.svg" alt="logo">
+            </div>
+
+            <div class="word display-3"> <span style="color:hsl(0, 36%, 70%)">WE'RE</span> <br/><span style="color:hsl(0, 6%, 24%)" class=" word font-weight-bold display-3">COMING<br/>SOON</span>
+            </div>
+
+
+
+            <p style="color:  hsl(0, 36%, 70%); padding-bottom: 30px;">Hello fellow shoppers! We're currently building our new fashion store. 
+              Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+              <form class="example" name="myForm" enctype="multipart/form-data" onsubmit="return validate()">
+                <input class="form-control form-control-lg" 
+                  type="email"
+                  id="email"
+                  name="email" 
+                  placeholder="  Email Address">
+                <button type="submit">
+                  <img
+									class="main__submit_image"
+									src="./images/icon-arrow.svg"
+									alt=""
+									srcset=""
+								/>
+                </button>
+              </form>
+
+          <div id="error-id"></div>
+          </div>
+
+          
+
+          <div class="col-5">
+              <img src="./images/hero-desktop.jpg" alt="base hero">
+</div>
+      <!--Mobile Version-->
+    </div>
+      <div class="mobile container">
+
+        <div >
+          <img class="logo1" src="./images/logo.svg" alt="logo">
+        </div>
+
+        <img src="./images/hero-mobile.jpg" alt="mobile model" class="hero">
+
+        <div class="pad">
+
+          <div class="word1 h1 font-weight-bold text-center"> <span style="color:hsl(0, 36%, 70%)">WE'RE</span> <br/><span style="color:hsl(0, 6%, 24%)" class=" word1 font-weight-bold h1 text-center">COMING<br/>SOON</span>
+          </div>
+  
+          <p style="color:  hsl(0, 36%, 70%); text-align: center;" class="text-center basemobile">Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+  
+          <div style="margin-bottom: 30px;">
+
+            <form class="example"
+            name="mobForm" enctype="multipart/form-data" onsubmit="return validateForm()"
+            >
+              <input class="form-control form-control-lg" 
+              type="email" 
+              placeholder="  Email Address"
+              id="email"
+              name="mobEmail">
+              <button type="submit">></button>
+            </form>
+          </div>
+          <div id="error-Id"></div>
+
+        </div>
+
+      </div>
+  
+
+
+
+      <footer class="text-center">
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Peter Zokoro</a>.
+        </p>
+      </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

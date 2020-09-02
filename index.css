@@ -1,0 +1,110 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.desktop{
+    margin: 50px;
+    max-width: 90rem;
+    overflow: hidden;
+}
+.letters{
+    padding-left: 180px;
+    padding-right: auto;
+}
+
+.logo{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 120px;
+  margin-right: auto;
+  width: 40%;
+}
+.word{
+    letter-spacing: 10px;
+    text-align: justify;
+}
+
+
+::placeholder{
+    color: hsl(0, 36%, 70%);
+    opacity: 1;
+}
+form.example input[type=email] {
+border-color: hsl(0, 36%, 70%);
+border-radius: 30px 0 0 30px;
+border-right: 0px;
+margin-right: 0%;
+float: left;
+width: 70%;
+background: #f1f1f1
+}
+
+form.example button{
+    float: right;
+    width: 30%;
+    height: 50px;
+    margin-left: 0px;
+    background: hsl(0, 93%, 68%);
+    color: white;
+    font-size: 16px;
+    border: 1px hsl(0, 36%, 70%);
+    border-left: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.example{
+    margin-bottom: 40px;
+}
+
+.container{
+    width: 24rem;
+}
+.logo1{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+     margin-right: auto;
+     margin-left: 40px;
+}
+.hero{
+    width: 24rem;
+}
+.word1{
+    margin-top: 80px;
+    letter-spacing: 10px;
+}
+
+.basemobile{
+    padding: 18px;
+}
+.fmobile{
+    padding: 18px;
+}
+#error-id{
+    padding: 20px;
+    margin: 10px 0 60px 0;
+    color:hsl(0, 36%, 70%);
+    transition: all 0.5s ease;
+}
+#error-Id{
+    padding: 20px;
+    margin: 10px 0 60px 0;
+    color:hsl(0, 36%, 70%);
+    transition: all 0.5s ease;
+}
+
+
+@media only screen and (max-width:  65.625rem) {
+    div.desktop {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 65.6875rem) {
+    div.mobile {
+      display: none;
+    }
+  }
